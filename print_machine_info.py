@@ -1,4 +1,7 @@
-# !/usr/bin/env python
+# Sometimes, you need to quickly discover some information about your machine, for
+# example, the hostname, IP address, number of network interfaces, and so on. This is very
+# easy to achieve using Python scripts.
+
 import socket
 def print_machine_info():
     host_name = socket.gethostname()

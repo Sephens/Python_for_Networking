@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+# Sometimes, you need to translate a machine's hostname into its corresponding IP address,
+# for example, a quick domain name lookup. This recipe introduces a simple function to do
+# that
 import socket
 def get_remote_machine_info():
     remote_host = 'www.google.com'

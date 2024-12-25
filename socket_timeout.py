@@ -1,3 +1,6 @@
+# Sometimes, you need to manipulate the default values of certain properties of a socket
+# library, for example, the socket timeout.
+
 import socket
 def test_socket_timeout():
  s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
