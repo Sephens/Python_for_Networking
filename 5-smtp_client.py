@@ -14,5 +14,5 @@ def sntp_client():
  t = struct.unpack( '!12I', data )[10]
  t -= TIME1970
  print ('\tTime=%s' % time.ctime(t))
- if __name__ == '__main__':
+if __name__ == '__main__':
     sntp_client()
