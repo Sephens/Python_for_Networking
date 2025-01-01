@@ -50,4 +50,13 @@ print(m)
 # 4. Write a function called chop that takes a list, modifies it by removing the first and
 # last elements, and returns None.
 
+# slice the given list
 def chop(lst):
+    if len(lst) > 2:
+        return lst[1:-1]
+    else:
+        return []
+
+c = chop([1,2,4,5,6,9])
+print(c)
+
