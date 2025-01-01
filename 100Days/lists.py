@@ -75,3 +75,28 @@ names = "John McAthy Adams"
 splitted = names.split()
 print(splitted)
 
+
+# Object and values
+# In this example, Python only created one string object, and both a and b refer to it. But
+#  when you create two lists, you get two objects:
+a = "dog"
+b = "dog"
+
+print(a is b) # True
+
+x = [1, 2, 3]
+y = [1, 2, 3]
+
+print(x is y) # False
+
+# In this case we would say that the two lists are equivalent, because they have the same elements,
+# but not identical, because they are not the same object. If two objects are identical,
+# they are also equivalent, but if they are equivalent, they are not necessarily identical.
+
+
+# Aliasing
+# The association of a variable with an object is called a reference. In this example, there are
+# two references to the same object.
+# An object with more than one reference has more than one name, so we say that the object
+# is aliased.
+
